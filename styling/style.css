@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: Montserrat, sans-serif;
+  /* padding: 0;
+  margin: 0;
+  box-sizing: border-box; */
+}
+body {
+  height: 100vh;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  & ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+.form-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30%;
+}
+input,
+select {
+  width: 500px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: start;
+}
